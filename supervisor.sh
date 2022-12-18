@@ -16,5 +16,5 @@ mv /system/nginx.conf /etc/nginx/nginx.conf
 mv /system/nginxconfig.io /etc/nginx
 
 service php8.1-fpm start
-#nginx
-exec supervisord -c /system/supervisord.conf
+nginx
+#exec supervisord -c /system/supervisord.conf
