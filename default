@@ -2,7 +2,7 @@ server {
 	listen 80;
 	listen [::]:80;
 
-	server_name qqbfwebdev.onrender.com;
+	server_name qqbfwebdev.up.railway.app;
 	set $base /var/www/html;
 	root $base;
 
